@@ -1,5 +1,5 @@
 <template>
-    <h1 class="text-3xl text-blue-700 font-bold underline">
-        Hello world!
-    </h1>
+    <div class="bg-[#f6f6f8] min-h-screen flex items-center justify-center ">
+        <Card />
+    </div>
 </template>
