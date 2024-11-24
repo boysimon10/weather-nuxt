@@ -24,5 +24,10 @@ export default defineNuxtConfig({
     public: {
       openWeatherApiKey: process.env.NUXT_PUBLIC_OPENWEATHER_API_KEY
     }
+  },
+  app: {
+    head: {
+      title: 'Weather App'
+    }
   }
 })

@@ -1,75 +1,51 @@
-# Nuxt Minimal Starter
+# Weather App 🌤️
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A simple weather application built with Nuxt.js that displays current weather conditions using the OpenWeatherMap API.
 
-## Setup
+![App Preview](./public/screenshot.png)
 
-Make sure to install dependencies:
+## ✨ Features
 
+- Current weather display
+- Intuitive user interface
+- Responsive design
+- City search functionality
+
+## 🚀 Installation
+
+1. Clone the repository:
 ```bash
-# npm
+git clone https://github.com/your-username/weather-app.git
+cd weather-app
+```
+
+2. Install dependencies:
+```bash
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
+# or
 yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+3. Create a `.env` file in the root directory and add your OpenWeatherMap API key:
+```env
+NUXT_PUBLIC_OPENWEATHER_API_KEY=your_api_key_here
+```
 
-Start the development server on `http://localhost:3000`:
+> **Note:** To get an API key, sign up at [OpenWeatherMap](https://openweathermap.org/) and generate a key in your dashboard.
 
+## 🎮 Usage
+
+To start the application in development mode:
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
+# or
 yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+The application will be available at `http://localhost:3000`
 
-Build the application for production:
+## 🛠️ Technologies Used
 
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- Nuxt.js
+- OpenWeatherMap API
+- TailwindCSS
